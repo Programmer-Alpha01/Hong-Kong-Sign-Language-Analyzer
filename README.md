@@ -34,6 +34,7 @@ This code is used to convert video into NumPy data massively
 This encoder is used to convert video into NumPy data
 
 
+
 Training:
 
 1.LSTM(Training).py
