@@ -12,10 +12,13 @@ Analyzer:
 Video to Numpy data:
 1.change_frame_rate.py
   This code is used to change video frame rate 
+	
 2.change_video_length.py
   This code is used to change video length
+	
 3.Video to NumPY.py
   This code is used to convert video into NumPy data massively
+	
 4.encoder.py
   This encoder is used to convert video into NumPy data
 
