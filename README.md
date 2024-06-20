@@ -1,4 +1,5 @@
 Hong Kong Sign Language Analyzer
+
 This project is used to ananlyze Hong Kong sign language. Currently, the model can analyze 4 type of Hong Kong Sign Language: Good Morning, Good Afternoon, Good Night, Thank You
 
 
