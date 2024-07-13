@@ -64,7 +64,27 @@ total params of this model is 1,224,900, including 1,224,900 trainable params an
 |-|-|
 |trained_model_LSTM.h5|A trained LSTM model|
 
+# Training data and Testing data
+| Type | Numbers | Training Dataset(Training) | Testing Dataset (Training)| Testing Dataset (Confusion Matrix) |
+|-|-|-|-|-|
+| Good Morning | 500 | 376 | 94 | 30 |
+| Good afternoon | 500 | 376 | 94 | 30 |
+| Good Night | 500 | 376 | 94 | 30 |
+| Thank You | 500 | 376 | 94 | 30 |
+
 # Trained Model conclusion
+## Confusion Matrix
+![image](https://github.com/user-attachments/assets/20f2a4c2-c842-41ff-b104-91ae61902afe)
+![image](https://github.com/user-attachments/assets/db7a42d1-9066-42f5-b635-ad343796555a)
+
+A set of 30 videos per HKSL does not belong to the model training set, which was sent to the 
+analyser for testing. For “Good Morning”, all 30 videos are predicted correctly, same as 
+“Good Afternoon”. However, in “Good Afternoon” there are 3 false positives that are
+supposed to be “Good Night” or “Thank you”. Thereby, the true positive value for “Good 
+Night” and “Thank you” are 26 and 28 respectively, with 2 false positive in “Good Night” 
+and 1 in “Thank you”. A total accuracy of 95% is deduced from the testing result.
+
+
 ## Trained Model Accuracy and loss
 ![image](https://github.com/user-attachments/assets/22b76b0c-ca30-4921-ba33-cf79b066e72f)
 
