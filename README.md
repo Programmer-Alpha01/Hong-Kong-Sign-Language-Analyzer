@@ -7,12 +7,11 @@ In Hong Kong, there are about 246,200 deaf or hearing-impairing people using Hon
 This project is used to ananlyze Hong Kong sign language. By using mediapipe landmark to extract human movement and input to trained LSTM model to prodicte Hong Kong sign language. 
 
 ## Current state
-Currently, the model can analyze 4 type of Hong Kong Sign Language: Good Morning, Good Afternoon, Good Night, Thank You
-
-The advanced version will be updated in the future.
+- Currently, the model can analyze 4 type of Hong Kong Sign Language: Good Morning, Good Afternoon, Good Night, Thank You
+- The advanced version will be updated in the future.
 
 ## Notice
-Please note that the analysis results provided by the application model are not 100% accurate.
+- Please note that the analysis results provided by the application model are not 100% accurate.
 
 
 
