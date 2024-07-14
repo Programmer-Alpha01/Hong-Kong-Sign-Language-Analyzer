@@ -18,12 +18,6 @@ Please note that the analysis results provided by the application model are not 
 
 
 # Programme file explanation
-## Analyzer
-| File Name  | Explanation|
-|-|-|
-|Realtime sign language analyzer.py|This analyzer can analyze sign language movement in real time|
-|Sign language video analyzer.py|This analyzer can analyze sign language movement in by input videos into a folder, but it can analyze one Sign Language only|
-
 
 ## Data pre-processing : Video to Numpy data
 Extracting the NumPy data directly without any pre-processing will cause the NumPy data inhomogeneous. Therefore the model input requires homogeneous data to proceed, unifying the video frame rate and length for the model input is crucial. The key points are then detected and converted to NumPy data by frame.
@@ -41,6 +35,11 @@ For large amounts of data to train the model, an automatic conversion program is
 |-|-|
 |LSTM(Training).py|The code is used for model training|
 
+## Analyzer
+| File Name  | Explanation|
+|-|-|
+|Realtime sign language analyzer.py|This analyzer can analyze sign language movement in real time|
+|Sign language video analyzer.py|This analyzer can analyze sign language movement in by input videos into a folder, but it can analyze one Sign Language only|
 
 ## Trained Model
 ![image](https://github.com/user-attachments/assets/aa80db9c-4652-4ac7-b8a2-a53ebc96b7a4)
